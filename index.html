@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SignUp & Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="child1">
+
+      <div class="signup" id="signup">
+        <input class="input1" type="text" placeholder="Enter your Name" id="name" />
+        <input class="input1" type="text" placeholder="Enter your Email" id="signupEmail" />
+        <input class="input1" type="number" placeholder="Phone number" id="number" />
+        <input class="input1" type="password" placeholder="Enter your password" id="signupPassword" />
+        <button id="signupSubmit" onclick="Signup()">Submit</button>
+        <button id="toggleButton" onclick="toggleForm()">Go to Login</button>
+      </div>
+
+      
+      <div class="login" id="login" style="display:none;">
+        <input class="input1" type="email" placeholder="Enter your Email" id="loginEmail" />
+        <input class="input1" type="password" placeholder="Enter your Password" id="loginPassword" />
+        <button id="loginSubmit" onclick="Login()">Submit</button>
+        <button id="toggleButton2" onclick="toggleForm()">Go to SignUp</button>
+      </div>
+    </div>
+  </div>
+  <div class="wel" id="wel">
+    <h1 class="boss">WELCOME TO YOUR BOSS</h1>
+
+ <h1>To do application</h1>
+    <div>
+      <input type="text" placeholder="Enter Your Task" id="task"/>
+      <button id="addTask">Add Task</button>
+      <ul id="list">
+
+      </ul>
+    </div>
+  
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
