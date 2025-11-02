@@ -204,14 +204,9 @@ function del(element) {
 
 
 
-// function Assignment(){
-//   const Assignment = createElement(div)
-//   Assignment.innerHTML("Created By Azan")
-// }
-
-// Assignment()
 
 
-function create(){
-  alert("Create_By_Azan");
-}
+
+//function create(){
+  //alert("Create_By_Azan");
+//}
